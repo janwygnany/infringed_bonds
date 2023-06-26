@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../amm-poland/.idea/amm-poland.iml" filepath="$PROJECT_DIR$/../amm-poland/.idea/amm-poland.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/ember/.idea/ember.iml" filepath="$USER_HOME$/Desktop/ember/.idea/ember.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/infringed_bonds.iml" filepath="$PROJECT_DIR$/.idea/infringed_bonds.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/plankton/py/.idea/py.iml" filepath="$USER_HOME$/Desktop/plankton/py/.idea/py.iml" />
