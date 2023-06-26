@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Desktop/plankton/py/list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/main/data/2014.csv">
           <value>
             <Attribute>
