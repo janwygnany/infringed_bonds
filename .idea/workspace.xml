@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180c5dbd-b035-413a-80e5-51fdd7f42165" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/append.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/2015.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/2016.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/2017.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/2018.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/2019.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/Infringement_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/bonds_complete2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/rates_2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/infringed_bonds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/infringed_bonds.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/append.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/append.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data/2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/data/2016.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/scrapper TBSP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/scrapper TBSP.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/do.do" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/do.do" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../amm-poland" source="draft" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +78,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
