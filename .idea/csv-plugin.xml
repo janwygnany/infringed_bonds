@@ -3,6 +3,62 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/datasets/macrodata/macrodata.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/stats/tests/results/bootleg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/tsa/statespace/tests/results/frbny_nowcast/Nowcasting/data/US/2016-06-29.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/tsa/statespace/tests/results/frbny_nowcast/Nowcasting/data/US/2016-07-29.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/tsa/statespace/tests/results/results_realgdpar_stata.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/tsa/tests/results/ARMLEConstantPredict.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.conda/envs/lib/python3.9/site-packages/statsmodels/tsa/tests/results/results_ar_forecast_mle_dynamic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Desktop/ember/Data Fake Modelling/Book4.csv">
           <value>
             <Attribute>
@@ -53,6 +109,55 @@
           </value>
         </entry>
         <entry key="/main/data/2016.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2017.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2018.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2019.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2020.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2021.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2022.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/2023.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
