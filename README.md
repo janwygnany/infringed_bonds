@@ -19,7 +19,7 @@ To conduct additional robustness checks I looked at the possible effect of infri
 ## Empirical Strategy and Further Development
 ### Event Study
 ### Regression Specification
-$$
+```math
 \begin{align}
 
 change_{t} = \beta_{0}+\beta_{1}infringement_{t} + \beta_{2} \Delta rate_{t} +\beta_{3} w_{t-1} +\beta_{4} w_{t-2} +\beta_{5} w_{t-3} +\beta_{5} w_{t-4} +\beta_{6} w_{t-5} + \epsilon_{t}
@@ -28,8 +28,7 @@ change_{t} = \beta_{0}+\beta_{1}rule \: of\:law_{t} + \beta_{2}financial \: mark
 
 
 \end{align}
-$$
-
+```
 ### Standard Errors
 Standard Errors are correlated within dates, so the specification needs robust standard errors to work properly.
 ### Next Steps
