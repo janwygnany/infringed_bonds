@@ -50,8 +50,11 @@ twoway line open_2Y time
 reg change_2Y budgetdummy ruleoflawdummy financialmarketsdummy L(1/5).budgetdummy L(1/5).ruleoflawdummy L(1/5).financialmarketsdummy rate_mom L(1/5).rate_mom, vce(robust)
 reg change_2Y ruleoflawdummy L(1/5).ruleoflawdummy rate_mom L(1/5).rate_mom, vce(cluster date)
 reg change_2Y rate_mom L(1/5).rate_mom, vce(robust)
+reg change_2Y L(0/5).ruleoflawdummy L(0/5).rate_mom, vce(robust)
 
-reg close_2Y infringementdummy
+reg close_2Y infringementdummy, vce(robust)
+
+reg open_2Y L(0/5).rate_mom, vce(robust)
 
 export delimited using "bonds_master_stata", replace
 
