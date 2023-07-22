@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="180c5dbd-b035-413a-80e5-51fdd7f42165" name="Changes" comment="" />
+    <list default="true" id="180c5dbd-b035-413a-80e5-51fdd7f42165" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main/WIG20 workability.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/WIG20_workable.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/WIGBanks_unworkable.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/data/WIGBanks_workable.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/bonds_date check.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/bonds_date check.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/master.dta" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/master.dta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

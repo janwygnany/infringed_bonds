@@ -171,6 +171,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/main/data/WIG20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/WIG20_unworkable.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/main/data/bonds_complete.csv">
           <value>
             <Attribute>
