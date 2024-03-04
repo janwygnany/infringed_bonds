@@ -4,20 +4,21 @@ cd "/Users/janwygnany/Documents/GitHub/infringed_bonds/main/stata files"
 import delimited "../data/bonds_complete2.csv"
 drop v1 unnamed
 sort dates
+drop change
 rename dates date
-rename closing_values close_2Y
-rename opening_values open_2Y
-gen change_2Y = (open_2Y-close_2Y)/open_2Y
+rename closing_values close
+rename opening_values open
+gen change = (open-close)/open
 gen time = _n
 tsset time
-save "Poland-2Y.dta", replace
+save "Poland-TBSP.dta", replace
 clear
 
 import delimited "../data/Infringement_2.csv"
 sort date
 save "Infringement_1.dta", replace
 use "Infringement_1.dta",clear
-use "Poland-2Y.dta"
+use "Poland-TBSP.dta"
 sort date
 save, replace
 
@@ -38,30 +39,58 @@ clear all
 
 use "master.dta"
 drop _merge
-merge m:1 date using rates.dta
+merge m:1 date using "rates.dta"
 sort time
 replace rate_mom = 0 if rate_mom == .
+drop _merge
 save "master.dta",replace
 
 twoway line rate_mom time
-twoway line open_2Y time
+twoway line open time
 
 
-reg change_2Y budgetdummy ruleoflawdummy financialmarketsdummy L(1/5).budgetdummy L(1/5).ruleoflawdummy L(1/5).financialmarketsdummy rate_mom L(1/5).rate_mom, vce(robust)
-reg change_2Y ruleoflawdummy L(1/5).ruleoflawdummy rate_mom L(1/5).rate_mom, vce(cluster date)
-reg change_2Y rate_mom L(1/5).rate_mom, vce(robust)
-reg change_2Y L(4/5).ruleoflawdummy L(0/5).rate_mom, vce(robust)
+reg change budgetdummy ruleoflawdummy financialmarketsdummy L(1/5).budgetdummy L(1/5).ruleoflawdummy L(1/5).financialmarketsdummy rate_mom L(1/5).rate_mom, vce(robust)
+reg change ruleoflawdummy L(1/5).ruleoflawdummy rate_mom L(1/5).rate_mom, vce(cluster date)
+reg change rate_mom L(1/5).rate_mom, vce(robust)
+reg change L(4/5).ruleoflawdummy L(0/5).rate_mom, vce(robust)
 
-reg change_2Y L(4/5).ruleoflawdummy L(0/5).rate_mom, vce(robust)
+reg change L(4/5).ruleoflawdummy L(0/5).rate_mom, vce(robust)
 
-reg close_2Y infringementdummy, vce(robust)
+reg close infringementdummy, vce(robust)
 
-reg open_2Y L(0/5).rate_mom, vce(robust)
+reg open L(0/5).rate_mom, vce(robust)
 
 export delimited using "bonds_master_stata", replace
 
+
+import delimited "../data/Infringement_Langier_Dates.csv"
+merge m:1 date using "master.dta"
+sort date
+
+replace letter_of_formal_notice = 0 if letter_of_formal_notice != 1
+replace reasoned_opinion = 0 if reasoned_opinion != 1
+replace court = 0 if court != 1
+replace interim_measures = 0 if interim_measures != 1
+replace judgement = 0 if judgement != 1
+save "master.dta",replace
+
+use "master.dta"
+sort date
+reg change L(0/5).letter_of_formal_notice L(0/5).rate_mom, vce(robust)
+reg change L(0/5).reasoned_opinion L(0/5).rate_mom, vce(robust)
+reg change L(0/5).interim_measures L(0/5).rate_mom, vce(robust)
+
+reg change L(0/5).reasoned_opinion L(0/5).court L(0/5).interim_measures L(0/5).rate_mom, vce(robust)
+outreg2 using "regression_table.tex", replace
+estout, replace tex("regression_table.tex") label title("Regression Results") type
+
 irf set infringement_exo.irf, replace
-lpirf  change_2Y rate_mom, lags(1/5) step(10) exog(L(0/5).budgetdummy L(0/5).ruleoflawdummy L(0/5).financialmarketsdummy)
+lpirf  close rate_mom, lags(1/5) step(10) exog(reasoned_opinion)
 irf create exog_model
-irf graph dm, impulse(ruleoflawdummy) irf(exog_model) 
-irf graph dm, impulse(budgetdummy) irf(exog_model)
+irf graph dm, impulse(reasoned_opinion) irf(exog_model) 
+
+
+
+
+
+

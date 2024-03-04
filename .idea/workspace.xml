@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="180c5dbd-b035-413a-80e5-51fdd7f42165" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/infringed_bonds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/infringed_bonds.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/WIG20 workability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/WIG20 workability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/bonds_date check.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/bonds_date check.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/Infringement_1.dta" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/Infringement_1.dta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/Poland-2Y.dta" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/Poland-2Y.dta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/V4_index.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/bonds_master_stata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/bonds_master_stata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/stata files/do.do" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/do.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stata files/~do.do.stswp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/infringement_exo.irf" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/infringement_exo.irf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/master.dta" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/master.dta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stata files/rates.dta" beforeDir="false" afterPath="$PROJECT_DIR$/main/stata files/rates.dta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2RTCviFT7ETSid3zdKWlzu4GlWx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,6 +70,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;/Users/janwygnany/Documents/GitHub/infringed_bonds/main/bonds_date check.ipynb&quot;
   }

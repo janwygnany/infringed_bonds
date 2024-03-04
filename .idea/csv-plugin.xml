@@ -164,7 +164,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/main/data/GDP_V4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/main/data/Infringement_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/PL2Y.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/Poland 2-Year Bond Yield Historical Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/main/data/V4_index_master.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
